@@ -57,13 +57,3 @@ Jupyter Notebook
 JupyterLab
 
 Google Colab
-
-✅ No extra system dependencies required.
-
-## ⚠️ Limitations
-
-Some websites block iframe embedding (X-Frame-Options)
-
-Login-required or private pages cannot be rendered
-
-YouTube videos must be publicly embeddable
