@@ -1,5 +1,5 @@
-from src.noteframe.logger import logger
-from src.noteframe.custom_exception import InvalidURLException
+from noteframe.logger import logger
+from noteframe.custom_exception import InvalidURLException
 
 logger.info("This is a test log message from test.py")
 
