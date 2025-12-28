@@ -23,7 +23,6 @@ Install `noteframe` from PyPI:
 
 ```bash
 pip install noteframe
-
 ```
 
 # 🚀 Quick Usage
