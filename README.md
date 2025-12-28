@@ -31,29 +31,33 @@ pip install noteframe
 Just import the required function and pass a YouTube URL or a website URL.
 
 ## ▶️ Render a YouTube Video
+
+```python
 from noteframe.youtube import render_youtube_video
 
 render_youtube_video("https://www.youtube.com/example")
-
+```
 
 The video will be rendered inline inside your notebook.
 
 ## 🌐 Render a Website
+
+```python
 from noteframe.site import render_site
 
 render_site("https://www.site.com/example")
-
+```
 
 The website will be displayed using an iframe inside the notebook.
 
 # 🧩 Requirements
 
-Python ≥ 3.9
+## Requirements
 
-Supported environments:
+- Python ≥ 3.9
 
-Jupyter Notebook
+### Supported Environments
 
-JupyterLab
-
-Google Colab
+- Jupyter Notebook
+- JupyterLab
+- Google Colab
