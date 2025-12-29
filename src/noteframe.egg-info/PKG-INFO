@@ -7,10 +7,10 @@ Author: uzzalpro
 Author-email: uzzal.dna@gmail.com
 License: MIT
 Project-URL: Bug Tracker, https://github.com/uzzalpro/noteframe-pypi-pkg/issues
-Classifier: Programming Language :: Python :: 3.8
-Classifier: Programming Language :: Python :: 3.9 or more upgrade
+Classifier: Programming Language :: Python :: 3.12
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.8
+Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: ensure==1.0.2
 Requires-Dist: py-youtube==1.1.7
@@ -21,7 +21,68 @@ Requires-Dist: flake8>=5.0.4; extra == "testing"
 Requires-Dist: tox>=3.25.1; extra == "testing"
 Dynamic: author
 Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
 Dynamic: home-page
 Dynamic: license-file
 Dynamic: project-url
 Dynamic: summary
+
+# 📘 noteframe
+
+`noteframe` is a lightweight Python package for rendering **YouTube videos** and **web pages** directly inside **Jupyter Notebook, JupyterLab, and Google Colab**.
+
+It helps you create rich, visual notebooks for learning, research, tutorials, and documentation.
+
+## 🎯 Use Cases
+
+`noteframe` is especially useful for:
+
+- 📓 Learning notebooks
+- 🔬 Research notes
+- 📘 Tutorials
+- 🧾 Documentation notebooks
+
+## 📦 Installation
+
+Install `noteframe` from PyPI:
+
+```bash
+pip install noteframe
+```
+
+# 🚀 Quick Usage
+
+Just import the required function and pass a YouTube URL or a website URL.
+
+## ▶️ Render a YouTube Video
+
+```bash
+from noteframe.youtube import render_youtube_video
+
+render_youtube_video("https://www.youtube.com/example")
+```
+
+The video will be rendered inline inside your notebook.
+
+## 🌐 Render a Website
+
+```bash
+from noteframe.site import render_site
+
+render_site("https://www.site.com/example")
+```
+
+The website will be displayed using an iframe inside the notebook.
+
+# 🧩 Requirements
+
+## Requirements
+
+- Python ≥ 3.9
+
+### Supported Environments
+
+- Jupyter Notebook
+- JupyterLab
+- Google Colab

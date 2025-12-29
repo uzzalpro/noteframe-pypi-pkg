@@ -4,18 +4,14 @@
 
 It helps you create rich, visual notebooks for learning, research, tutorials, and documentation.
 
----
-
 ## 🎯 Use Cases
 
 `noteframe` is especially useful for:
 
-- 📓 Learning notebooks  
-- 🔬 Research notes  
-- 📘 Tutorials  
-- 🧾 Documentation notebooks  
-
----
+- 📓 Learning notebooks
+- 🔬 Research notes
+- 📘 Tutorials
+- 🧾 Documentation notebooks
 
 ## 📦 Installation
 
