@@ -10,6 +10,7 @@ Project-URL: Bug Tracker, https://github.com/uzzalpro/noteframe-pypi-pkg/issues
 Classifier: Programming Language :: Python :: 3.12
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.8
+Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: ensure==1.0.2
 Requires-Dist: py-youtube==1.1.7
@@ -21,6 +22,7 @@ Requires-Dist: tox>=3.25.1; extra == "testing"
 Dynamic: author
 Dynamic: author-email
 Dynamic: description
+Dynamic: description-content-type
 Dynamic: home-page
 Dynamic: license-file
 Dynamic: project-url
