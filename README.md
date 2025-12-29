@@ -21,7 +21,7 @@ Install `noteframe` from PyPI:
 pip install noteframe
 ```
 
-# 🚀 Quick Usage
+# Quick Usage
 
 Just import the required function and pass a YouTube URL or a website URL.
 
