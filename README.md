@@ -3,28 +3,34 @@
 A lightweight Python package for rendering YouTube videos and web pages
 inside Jupyter Notebook, JupyterLab, and Google Colab.
 
-Installation
+## Installation
+
 ```bash
 pip install noteframe
 ```
-Usage
 
-Render a YouTube video
+## Usage
 
+### Render a YouTube video
+
+```python
 from noteframe.youtube import render_youtube_video
 render_youtube_video("https://www.youtube.com/example")
+```
 
-Render a website
+### Render a website
 
+```python
 from noteframe.site import render_site
 render_site("https://www.example.com")
+```
 
-Requirements
+## Requirements
 
-Python 3.9+
+- Python 3.9+
 
-Supported Environments
+## Supported Environments
 
-Jupyter Notebook  
-JupyterLab  
-Google Colab
+- Jupyter Notebook
+- JupyterLab
+- Google Colab
