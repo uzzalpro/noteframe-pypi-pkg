@@ -31,7 +31,7 @@ Just import the required function and pass a YouTube URL or a website URL.
 
 ## ▶️ Render a YouTube Video
 
-```python
+```bash
 from noteframe.youtube import render_youtube_video
 
 render_youtube_video("https://www.youtube.com/example")
@@ -41,7 +41,7 @@ The video will be rendered inline inside your notebook.
 
 ## 🌐 Render a Website
 
-```python
+```bash
 from noteframe.site import render_site
 
 render_site("https://www.site.com/example")
